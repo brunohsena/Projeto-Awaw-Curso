@@ -991,6 +991,17 @@ MEDIA RESPONSIVIDADE
 */
 
 /*MEDIA MENU*/
+@media (max-height:320px) { 
+
+ /*COMPANIES*/
+
+     .section-companies {
+        flex-direction: column;
+    } 
+    .section-companies img {
+        flex-direction: column;
+    }
+}
 
 @media (min-width:450px) and (max-width:800px) {
     .menu-opener {
