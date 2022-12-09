@@ -807,7 +807,7 @@ SOCIAL ICONS
 label input {
     border-right: none;
     border-left: none;
-    background-color: #FFF
+    background-color:transparent;
     border-top: none;
     border-color: #aeaeae;
     outline: none;
