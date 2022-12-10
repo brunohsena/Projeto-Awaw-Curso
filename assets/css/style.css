@@ -539,12 +539,14 @@ CSS DE ÁREAS ESPECIFICAS
 }
 .section-companies--photos {
     display: inline-flex;
+    flex-wrap:wrap;
     align-items: center;
     border-top:1px solid #c0c0c0;
     border-bottom:1px solid #c0c0c0;
 
 }
 .section-companies--photos img {
+    flex-wrap:wrap;
     padding: 35px;
     margin-right: 40px;
     cursor: pointer;
@@ -993,14 +995,13 @@ MEDIA RESPONSIVIDADE
 /*MEDIA MENU*/
 @media (min-height:320px) { 
 
- /*COMPANIES*/
-
-     .section-companies {
+/*MEDIA HAPPY CLIENTS*/
+    .section-companies--photos {
         flex-direction: column;
+    }  
+    .section-companies--photos img {
+        margin: 0;
     } 
-    .section-companies img {
-        flex-direction: column;
-    }
 }
 
 @media (min-width:450px) and (max-width:800px) {
@@ -1009,6 +1010,13 @@ MEDIA RESPONSIVIDADE
         width: 38px;
         margin-right: 30px;
     }
+    /*MEDIA HAPPY CLIENTS*/
+    .section-companies--photos {
+        flex-direction: column;
+    }  
+    .section-companies--photos img {
+        margin: 0;
+    } 
     nav {
         display: none;
         position: absolute;
