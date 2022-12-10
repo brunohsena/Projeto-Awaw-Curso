@@ -1004,7 +1004,7 @@ MEDIA RESPONSIVIDADE
     } 
 }
 
-@media (min-width:450px) and (max-width:800px) {
+@media (min-width:450px) and (max-width:920px) {
     .menu-opener {
         display: block;
         width: 38px;
