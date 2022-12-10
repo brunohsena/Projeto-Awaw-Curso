@@ -991,7 +991,7 @@ MEDIA RESPONSIVIDADE
 */
 
 /*MEDIA MENU*/
-@media (max-height:320px) { 
+@media (min-height:320px) { 
 
  /*COMPANIES*/
 
